@@ -1,1 +1,5 @@
 targets = [ "//:container" ]
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-intrusive"
+version = "branch=master"
