@@ -1,0 +1,9 @@
+manifest = "be474a7a86e954ef80ef150efb843aaccd445cada33eea2f54423718eb3960a0"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-intrusive"
+target = "//:intrusive"
+
+[lock."github.com/buckaroo-pm/boost-intrusive"]
+versions = [ "branch=master" ]
+revision = "5d18cdbcb05444b888687b0546112bef2e4d13c6"
