@@ -1,9 +1,37 @@
-manifest = "be474a7a86e954ef80ef150efb843aaccd445cada33eea2f54423718eb3960a0"
+manifest = "5389cd715f566df7a9775b82e9b56afd25996a10895fb3714279b61f49fc4257"
 
 [[dependency]]
 package = "github.com/buckaroo-pm/boost-intrusive"
 target = "//:intrusive"
 
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-move"
+target = "//:move"
+
+[lock."github.com/buckaroo-pm/boost-assert"]
+versions = [ "branch=master" ]
+revision = "fc4d65435c49b5b4fbbf0d4867ee8f69bfd42ef1"
+
+[lock."github.com/buckaroo-pm/boost-config"]
+versions = [ "branch=master" ]
+revision = "f2f2d0d85496b72eeff1186518deb7e23c757bfd"
+
+[lock."github.com/buckaroo-pm/boost-detail"]
+versions = [ "branch=master" ]
+revision = "94aa5268c1a74468be94b40afd730aea1730ceab"
+
 [lock."github.com/buckaroo-pm/boost-intrusive"]
 versions = [ "branch=master" ]
-revision = "5d18cdbcb05444b888687b0546112bef2e4d13c6"
+revision = "d812ed3ac7c7d573249e49fe23aa12339629c730"
+
+[lock."github.com/buckaroo-pm/boost-move"]
+versions = [ "branch=master" ]
+revision = "3f0711cabd643ed902ff3ae3d6746ba2f7256e4e"
+
+[lock."github.com/buckaroo-pm/boost-static_assert"]
+versions = [ "branch=master" ]
+revision = "4b9da4628bc69ad0e9b244d3ec885f2eadac95d8"
+
+[lock."github.com/buckaroo-pm/boost-type_traits"]
+versions = [ "branch=master" ]
+revision = "a34caf51f831ffb77d1057c668b5db620863d191"

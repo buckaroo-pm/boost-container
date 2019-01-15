@@ -3,3 +3,7 @@ targets = [ "//:container" ]
 [[dependency]]
 package = "github.com/buckaroo-pm/boost-intrusive"
 version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-move"
+version = "branch=master"
