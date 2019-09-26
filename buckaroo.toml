@@ -1,0 +1,9 @@
+targets = [ "//:container" ]
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-intrusive"
+version = "1.52.0"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-move"
+version = "1.52.0"
